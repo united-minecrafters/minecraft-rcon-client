@@ -24,8 +24,8 @@ SOFTWARE.
 import functools
 from typing import Callable
 
-from minecraft.errors import NotConnectedError
-from minecraft import MinecraftClient
+from .errors import NotConnectedError
+from . import MinecraftClient
 
 
 def needs_connection(func):
